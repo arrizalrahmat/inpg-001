@@ -1,0 +1,25 @@
+body {
+    background-color: #30336b;
+    color: white;
+}
+
+h1 {
+    color: black;
+    background-color: #34ace0;
+}
+
+h3.lala2 {
+    color: orange;
+    background-color: #34ace0;
+}
+
+.lala2 {
+    color: blue;
+    background-color: #257ca1;
+    text-align: center;
+}
+
+
+#lele {
+    color: green;
+}

@@ -1,0 +1,22 @@
+@media(max-width: 768px) {
+    #profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(min-width: 900px) {
+    #profile-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#inner-container {
+    display: flex;
+    flex-direction: row;
+}
