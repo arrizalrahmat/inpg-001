@@ -142,17 +142,109 @@ let index = 5000000;
 // }
 
 //cara 2
-for (let i = 0; i <= 10; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
-}
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
 
 // cara 3
-for (let i = 0; i <= 10; i++) {
-  const hasilBagi = Math.floor(i / 2);
-  const hasilKali = hasilBagi * 2;
-  if (i === hasilKali) {
-    console.log(i, 'ini ganjil');
-  }
-}
+// for (let i = 0; i <= 10; i++) {
+//   const hasilBagi = Math.floor(i / 2);
+//   const hasilKali = hasilBagi * 2;
+//   if (i === hasilKali) {
+//     console.log(i, 'ini ganjil');
+//   }
+// }
+
+// NESTED LOOP
+// for (let i = 0; i < 10; i++) {
+//   console.log('halo semuanya', i);
+//   for (let j = 0; j < 10; j++) {
+//     console.log('         Hello everybody', i);
+//   }
+// }
+// let temp = ''; // '*****'
+
+// for (let i = 0; i < 5; i++) {
+//   for (let j = 0; j < 5; j++) {
+//     temp += '*';
+//   }
+
+//   console.log(temp);
+//   temp = '';
+// }
+
+/*
+ *****
+ *****
+ *****
+ *****
+ *****
+ */
+
+//cara nana
+// let temp = '';
+
+// for (let i = 0; i < 5; i++) {
+//   temp += '*';
+
+//   console.log(temp);
+// }
+
+// cara lain
+// for (let i = 0; i < 5; i++) {
+//   let temp = '';
+//   for (let j = 0; j <= i; j++) {
+//     temp += '*';
+//   }
+
+//   console.log(temp);
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   let temp = '';
+//   for (let j = 5; j > i; j--) {
+//     temp = temp + '*';
+//   }
+
+//   console.log(temp);
+// }
+
+/*
+ *
+ **
+ ***
+ ****
+ *****
+ */
+
+// CHALLENGE BUAT DI RUMAH
+
+/*
+ *
+ ***
+ *****
+ *******
+ */
+
+/*
+ *
+ **
+ ***
+ ****
+ *****
+ ****
+ ***
+ **
+ *
+ */
+
+/*
+ ******
+ *    *
+ *    *
+ *    *
+ *    *
+ ******
+ */
