@@ -222,9 +222,9 @@ let index = 5000000;
 // CHALLENGE BUAT DI RUMAH
 
 /*
- *
- ***
- *****
+    *
+   ***
+  *****
  *******
  */
 

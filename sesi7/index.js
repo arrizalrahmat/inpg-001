@@ -84,7 +84,7 @@ function studentFilter(students) {
   //   );
 }
 
-console.log(studentFilter(listOfStudents));
+// console.log(studentFilter(listOfStudents));
 
 // students = students.filter((val) => {
 //   console.log(val.grade);
@@ -96,3 +96,74 @@ console.log(studentFilter(listOfStudents));
 // students = students.filter((student) => student.grade > 70);
 
 // console.log(students);
+
+// let arr = [20, 1, 90, 100, 130, 265, 300];
+
+// map
+// arr = arr.map((el, i) => {
+//   if (el > 30) {
+//     return el;
+//   }
+// });
+// console.log(arr);
+
+// let newArr = [];
+// // forEach
+// arr.forEach((el, i) => {
+//   // const letter = `aku makan ${el} buah telur`;
+//   // console.log(letter);
+//   newArr.push(el * 2);
+// });
+
+// console.log(arr);
+
+let fruits = [
+  'orange',
+  'apple',
+  'mango',
+  'banana',
+  'pineapple',
+];
+
+const juices = fruits.map((fruit) => {
+  return fruit + '-juice';
+});
+
+const smoothies = juices
+  .map((juice, i, array) => {
+    // console.log(juice);
+    // cara 1
+    // console.log(juice.split('-')[0] + '-smoothies');
+    return juice.split('-')[0] + '-smoothies';
+
+    // cara 2
+    // console.log(juice.replace(/-juice/, '-smoothies'));
+    // return juice + '-smoothies';
+  })
+  .join(', ');
+
+console.log(smoothies);
+// const newFruits = juices.map((juice) => {
+//   // console.log(juice.split('-')[0]);
+//   return juice.split('-')[0];
+// });
+
+// console.log(newFruits);
+// console.log(juices);
+// fruits.map(function (el) {
+//   console.log(el);
+// });
+
+// fruits.map((el) => {
+//   console.log(el);
+// });
+
+// function handler(el) {
+//   console.log(el);
+// }
+
+// fruits.map(handler);
+
+function sesuatu(param1, param2, param3) {}
+
+sesuatu();
