@@ -36,7 +36,9 @@ function displayContent(url) {
         card.appendChild(namaPokemon);
         cardContainer.appendChild(card);
       }
-    });
+    })
+    .catch((err) => console.log(err))
+    .finally(() => console.log('fetchingnya udah selesai'));
 }
 
 displayContent(apiUrl);
@@ -46,4 +48,7 @@ function handleNext(e) {
   e.preventDefault();
   displayContent(nextUrl);
 }
-nextButton.addEventListener('click', handleNext);
+nextButton.addEventListener('click', () => {
+  e.preventDefault();
+  displayContent(nextUrl);
+});
